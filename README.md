@@ -14,3 +14,9 @@
 3. Пропишите git clone https://github.com/KarasTipoNoNet/discord-webhook-sender
 4. Пропишите cd discord-webhook-sender
 5. Пропишите python3 sender.py
+
+# Фразы и посхалки
+
+changewebhook - замена вебхука (поля Название старого вебхука и название сервера со старым вебхуком необязательны)
+
+quit - выход из приложеньки и оповещение о отключении от вебхука...
