@@ -44,7 +44,7 @@ while True:
     message = input('Введите сообщение для отправки: ')
 
     if message == 'changewebhook':
-        DiscordWebhook(url=url, content='app conected to new webhook. This webhook is disconected')
+        DiscordWebhook(url=url, content='app conected to new webhook. This webhook is disconected').execute()
         os.system('cls' if os.name == 'nt' else 'clear')
         time.sleep(1)
         url = input('Введите URL другого вебхука: ')
@@ -88,4 +88,5 @@ while True:
         time.sleep(1)
 
         message = '_ _'
+
 
