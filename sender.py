@@ -55,7 +55,7 @@ while True:
             os.system('cls' if os.name == 'nt' else 'clear')
             time.sleep(1)
             oldwebhookname = input('ОШИБКА! Введите название старого вебхука: ')
-        elif oldwebhookservername == '':
+        if oldwebhookservername == '':
             os.system('cls' if os.name == 'nt' else 'clear')
             time.sleep(1)
             oldwebhookservername = input('ОШИБКА! Введите название сервера на котором находился старый вебхук: ')
